@@ -2,7 +2,7 @@ function toggleMode() {
 	if (document.getElementById('mode').value == "Converter Mode") {
         window.location.href = "converter.html";
 	} else {
-        window.location.href = "calculator.html";
+        window.location.href = "index.html";
 	}
 }
 
