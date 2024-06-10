@@ -1,10 +1,11 @@
-# BASIC CALCULATOR W/ UNIT CONVERTER(in Metric System)
+BASIC CALCULATOR W/ UNIT CONVERTER(in Metric System)
 
-## Overview
+Overview
 
 A basic calculator application with unit converter using HTML, CSS, and Javascript.
 The basic calculator mode is capable to perform basic arithmetic operations like addition, subtraction, multiplication, and division.
-There are three units available in unit converter mode-length, width, and temperature in metric system.
+There are three units available in unit converter mode-length, width, and temperature in metric syste
 
-## Usage 
-To see a live preview of the project, visit (https://github.com/kimuell-james/Calculator-UnitConverter/blob/main/calculator.html).
+Usage
+
+To see a live preview of the project, visit (https://kimuell-james.github.io/Calculator-UnitConverter/).
