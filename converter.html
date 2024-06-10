@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with Unit Converter</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1>
+        Unit Converter
+    </h1>
+    <h5>
+        (Units available: Length, Weight, and Temperature in Metric system only.)
+    </h5>
+
+    <div class="converter">
+        <!-- conversion type -->
+        <select id="conversionType" onchange="changeUnits()">
+            <option value="default">Choose Unit</option>
+            <option value="length">Length</option>
+            <option value="weight">Weight</option>
+            <option value="temperature">Temperature</option>
+        </select>
+        
+        <!-- displays -->
+        <h4>From Unit</h4>
+        <select id="fromUnit">
+            <!-- dynamically generated based on the selected conversion type -->
+        </select>
+        <input type="text" id="display" readonly>
+
+        <h4>To Unit</h4>
+        <select id="toUnit">
+            <!-- dynamically generated based on the selected conversion type -->
+        </select>
+        <input type="text" id="toDisplay" readonly>
+
+        <!-- buttons -->
+        <div class="buttons">
+            <input type="button" id="mode" value="Calculator Mode" onclick="toggleMode()">
+            <input type="button" value="C" id="clear" onclick="clearDisplays()">
+            <input type="button" value="DEL" onclick="deleteLast()">
+            <input type="button" value="7" onclick="addToDisplay('7')">
+            <input type="button" value="8" onclick="addToDisplay('8')">
+            <input type="button" value="9" onclick="addToDisplay('9')">
+            <input type="button" id="sign" value="/" >
+            <input type="button" value="4" onclick="addToDisplay('4')">
+            <input type="button" value="5" onclick="addToDisplay('5')">
+            <input type="button" value="6" onclick="addToDisplay('6')">
+            <input type="button" id="sign" value="x" >
+            <input type="button" value="1" onclick="addToDisplay('1')">
+            <input type="button" value="2" onclick="addToDisplay('2')">
+            <input type="button" value="3" onclick="addToDisplay('3')">
+            <input type="button" id="sign" value="-" >
+            <input type="button" value="0" onclick="addToDisplay('0')">
+            <input type="button" value="." onclick="addToDisplay('.')">
+            <input type="button" id="sign" value="%" >
+            <input type="button" id="sign" value="+" >
+            <input type="button" id="sign" value="(" >
+            <input type="button" id="sign" value=")" >
+            <input type="button" value="=" id="equals" onclick="convert()">
+        </div>
+        
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
