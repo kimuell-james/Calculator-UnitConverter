@@ -4,7 +4,7 @@ Overview
 
 A basic calculator application with unit converter using HTML, CSS, and Javascript.
 The basic calculator mode is capable to perform basic arithmetic operations like addition, subtraction, multiplication, and division.
-There are three units available in unit converter mode-length, width, and temperature in metric syste
+There are three units available in unit converter mode-length, width, and temperature in metric system
 
 Usage
 
