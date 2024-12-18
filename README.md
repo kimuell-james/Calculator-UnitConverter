@@ -8,7 +8,7 @@ There are three units available in unit converter mode-length, width, and temper
 
 Usage
 
-To use the Calculator and Unit Converter, visit (https://kimuell-james.github.io/Calculator-UnitConverter/).
+To use the Calculator and Unit Converter, visit (https://calculator-unit-converter.vercel.app/).
 
 Instructions
 
